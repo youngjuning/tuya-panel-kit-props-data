@@ -1,6 +1,6 @@
 {
-  "name": "tuya-pan",
-  "version": "1.0.1",
+  "name": "tuya-panel-kit-props-data",
+  "version": "1.0.0",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
