@@ -1,0 +1,20 @@
+{
+  "name": "tuya-pan",
+  "version": "1.0.1",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "del-cli yarn.lock && yarn && node ./scripts/genProps.js",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "@youngjuning/interface-comments-parser": "^5.1.0",
+    "DefinitelyTyped": "tuya/DefinitelyTyped",
+    "chalk": "^4.1.1",
+    "del-cli": "^4.0.0",
+    "lodash": "^4.17.21"
+  }
+}
