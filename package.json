@@ -7,8 +7,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "del-cli yarn.lock && yarn && node ./scripts/genProps.js",
-    "prepublishOnly": "yarn build"
+    "build": "del-cli yarn.lock && yarn && node ./scripts/genProps.js"
   },
   "devDependencies": {
     "@youngjuning/interface-comments-parser": "^5.1.0",
